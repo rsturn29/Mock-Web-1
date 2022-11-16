@@ -1,29 +1,91 @@
 <!DOCTYPE html>
 <head>
     <title>Assignment 1</title>
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
 </head>
 <body>
-    <header>
-        <img src="images\logo.png">
-        <a href="./sign-in.html">Sign In</a>
-        <a href="./sign-up.html">Try for Free</a>
+    <header class="flex-box">
+        <div class="flex-item1">
+            <img src="images\logo.png">
+        </div>
+        <div class="flex-item2">
+            <a href="./sign-in.html">Sign In</a>
+        </div>
+        <div class="flex-item3" >
+            <button class="button1">Try for free</button>
+        </div>
     </header>
+    
     <div class="container">
-      <div>
-        <div class="flex-left">
-            <h2>Functional Music to Improve</h2>
-            <h1>Focus in 15 Minutes</h1>
-            <h3>
+      <div class="flex-box">
+        <div class="section1">
+            <div class="flex-item4">
+             <p class="line1">Functional Music to Improve</p>
+                <p class="line2">Focus in 15 Minutes</p>
+                 <p class="paraBody">
                 Our science-first approach creates music that sounds <br/>
                 different-and affects your brain differently-than any other<br/>
                 music.
-            </h3>
+                </p>
+            </div>    
+         <div class="flex-item5">    
+            <p class="featured">FEATURED IN:</p>
             <img src="images\clout.png">
+         </div>   <br/> 
+         <div class="flex-item6">    
+            <button class="button2">Try 5 free<br/> sessions</button>
+         </div>
         </div>
-        <div id="image1" class= "image" >
-            <img src="images\picture-1.gif" width="700px" height="400px">
+        <div class="section2">
+            <div id="image1" class= "flex-item7" >
+            <img src="images\picture-1.gif" height="450px">
+            </div>
         </div>
+      </div>
+      <div class="flex-box">
+        <div class="section3">
+        <p class="line3">Wanna see the Science?</p>
+      </div>
     </div>
+      <div class="flex-box">
+        <div class="section4">
+            <div class="flex-item8">
+                <img src="images\picture-2.gif"/>
+           
+                <p class="liner">Patented Technology</p>
+                <p class="paraBody2">Brain.fm holds patents on key processes for creating<br/>
+                    functional music, including technology to elicit strong neural<br/>
+                    phase locking- allowing populations of neurons to engage in<br/>
+                    various kinds of coordinated activity-and technology to<br/>
+                    remove distraction in sound.
+                </p>
+                <p class="paraBody3"> This makes our music unique, purpose-built to steer you into a<br/>
+                    desired mental state. In other words, we've found new ways to<br/>
+                    create music that helps you do what you need to do.
+                </p>
+                
+                    <a href="./explore" style="font-size:larger;font-weight: bolder;">Explore more of Our Science</a>
+                </div>
+           </div>
+           <div class="section5">
+      
+            <div class="flex-item9">
+                <div class="rightImg">
+                <img src="images\picture-3.png"/>
+                </div>
+                <p class="liner2"> Tested on Brain and Behavior</p>
+                <p class="paraBody4">Scientists at Brain.fm work with collaborators at academic<br/>
+                     institutions to run experiments</p>
+                <p class="paraBody5"> We look at the effects of our technology on the brain, using<br/>
+                fMRI and EEG, and also run large-scale behavioral tests,<br/>
+                measuring performance on simple games.</p> 
+                <p class="paraBody6">Our experiments always include a control condition<br/>
+                ('placebo') of the same underlying music without Brain.fm<br/>
+                technology applied, so we can be sure our tech is what makes the difference.</p>   
+            </div>
+        </div>
+        </div>
+      </div>
     </div>
 </body>
 
